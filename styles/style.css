@@ -1,13 +1,13 @@
 body {
     width: 1440px;
     height: 100vh;
-    background: linear-gradient(180deg, rgb(176, 161, 24) 1%, rgb(249, 241, 11) 39%, rgb(168, 190, 2) 88%);
+    background: linear-gradient(180deg, rgb(27, 82, 130) 1%, rgba(4, 24, 50, 1) 39%, rgba(1, 8, 14, 1) 88%);
     margin: 5% auto;
     color: #fff;
 }
 
 header {
-    width: 1200px;
+    width: 90%;
     margin: 2rem auto;
 }
 
@@ -19,7 +19,7 @@ header .logo {
 
 
 main.container {
-    width: 1200px;
+    width: 90%;
     height: auto;
     border: 2px solid #00F4BF;
     margin: 0 auto;
@@ -136,4 +136,20 @@ form button {
     font-style: italic;
     font-size: 2rem;
     padding-left: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 2% auto;
+    }
+
+    header {
+        width: 95%;
+        margin: 1rem auto;
+    }
+
+    main.container {
+        width: 95%;
+        padding: 2rem;
+    }
 }
